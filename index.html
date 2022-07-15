@@ -1,0 +1,61 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <script src="./index.js"></script>
+        <h1> <span id="hero-line1">Generate a</span></br> <span id="hero-line2">random identity </span></h1>
+        <h2 id="slogan">Made by chili.</h2>
+        <button type="button" id="generate-btn" onclick="renderJig()">Generate</button>
+        <div id="main-container">
+            <div id="address-container">
+                <div>
+                    <input type="text" name="address1" id="address1" placeholder="123 Main St">
+                    <label for="address1">Address 1</label>
+                </div>
+
+            </div>
+            <div id="email-container">
+                <div>
+                    <input type="text" name="domain" id="domain" placeholder="chili.com">
+                    <label for="domain">Domain</label>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="output-container">
+            <div class="output" >
+                <p id="fname"></p>
+                <button type="button" class="fa-solid fa-copy" onClick="copyEvent('fname')"></button>
+            </div>
+            <div class="output" >
+                <p id="lname"></p>
+                <button type="button" class="fa-solid fa-copy" onClick="copyEvent('lname')"></button>
+            </div>
+        </div>
+        <div id="output-container">
+            <div class="output" >
+                <p id="address"></p>
+                <button type="button" class="fa-solid fa-copy" onClick="copyEvent('address')"></button>
+            </div>
+            <div class="output" >
+                <p id="phone"></p>
+                <button type="button" class="fa-solid fa-copy" onClick="copyEvent('phone')"></button>
+            </div>
+        </div>
+        <div id="output-container">
+            <div class="output" >
+                <p id="email"></p>
+                <button type="button" class="fa-solid fa-copy" onClick="copyEvent('email')"></button>
+            </div>
+        </div>
+                
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

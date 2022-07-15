@@ -1,0 +1,131 @@
+body {
+  margin: 80px 30px;
+  background-color: rgb(183, 223, 204);
+}
+
+h1, h2{
+  margin: 5px 0;
+}
+
+#hero-line1, #hero-line2{
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+}
+#hero-line1{
+  color: #2B283A;        
+}
+#hero-line2{
+  color: #10B981;        
+}
+
+#slogan{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6B7280;
+}
+
+#generate-btn{
+  margin: 50px 0 5px 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #10B981;
+  padding: 9px 17px 9px 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+#address-container, #email-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #273549;
+  margin: 5px 0 30px 0;
+}
+
+#address1, #domain{
+  width: 200px;
+  height: 25px;
+}
+
+
+input {
+  width: 40px;
+  height: 14px;
+  margin: 0;
+  border: 1px solid #D5D4D8;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+hr{
+  border: 1px solid #767579;
+  margin: 35px 0;
+}
+
+#output-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+  height: 40px;
+}
+
+.output{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #5DEF92;
+  width: 45%;
+  height: 100%;
+  background: #273549;
+  margin: 0;
+  padding: 3px 5px;
+  border-radius: 6px;
+}
+
+#fname, #lname, #email, #phone, #address{
+  width: 80%;
+  margin: 5px 0;
+}
+
+.copy-btn{
+  background: #273549;
+  border: none;
+}
+
+#output-container > div > label{
+  padding-top: 3px;
+  opacity: 30%;
+}
+
+#output-container > div > label{
+  padding-top: 3px;
+  opacity: 30%;
+}
+
+#output-container > div > button {
+  padding: 10px;
+  margin-left: 5px;
+  background: #273549;
+  color: #000;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
