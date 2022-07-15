@@ -1,6 +1,11 @@
 // 
 // 
 // 
+
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
 function renderJig(){
     let Rules = {
         address: document.getElementById("address1").value,
